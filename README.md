@@ -30,4 +30,4 @@ AI分析
    │
 自動 Lint
    │
-自動 Deployhttps://github.com/github/copilot-cli/releases/tag/v1.0.68
+自動 Deployhttps://github.com/github/copilot-cli/releases/tag/v1.0.68 
