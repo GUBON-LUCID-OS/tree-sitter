@@ -1,3 +1,12 @@
+git pull origin master && \
+npm ci && \
+npm run lint -- --fix && \
+npm run format && \
+npm test && \
+npm run build && \
+npx prisma migrate deploy && \
+docker build -t gubon-app . && \
+docker compose up -d
 payment/
 ├── controller.ts
 ├── service.ts
